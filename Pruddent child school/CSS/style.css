@@ -1,4 +1,10 @@
-p{
-    font: size 56px;
-    color:red;
+
+h1{
+font: size 75px; 
+color:rgb(130, 22, 22);
+border-color: black;width:40%;border-radius: 2px;
+}
+body{background-color:antiquewhite;}
+.container{
+    border-radius: 2px;
 }
