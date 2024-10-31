@@ -4,7 +4,9 @@ font: size 75px;
 color:rgb(130, 22, 22);
 border-color: black;width:40%;border-radius: 2px;
 }
-body{background-color:antiquewhite;}
+body{background-color:white(243, 217, 184);}
 .container{
     border-radius: 2px;
 }
+body{
+    align-content: center;}
