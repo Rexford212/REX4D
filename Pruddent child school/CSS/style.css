@@ -4,7 +4,7 @@ font: size 75px;
 color:rgb(130, 22, 22);
 border-color: black;width:40%;border-radius: 2px;
 }
-body{background-color:white(243, 217, 184);}
+body{background-color:aliceblue(198, 131, 135);}
 .container{
     border-radius: 2px;
 }
@@ -33,4 +33,21 @@ body{
     
 
 }
-    
+    @keyframes slideinleft{
+        from{
+            transform:translateX(-300px);
+        }
+        to{
+            transform: translateX(0);
+        }
+    }
+    .heading-1{
+        animation-name: slideinleft;
+        animation-duration: 1s; 
+        animation-delay:0s ;
+        animation-fill-mode:none;
+        animation-iteration-count:1 ;
+        animation-timing-function:ease-in-out ;
+        animation-direction:normal ;
+        transform: translateX(200px);
+    }
